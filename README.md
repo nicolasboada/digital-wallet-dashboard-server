@@ -1,10 +1,14 @@
-# NestJS REST API
+# NestJS REST API for Digital Wallet Dashboard App
 
-A CRUD REST API using the NestJS framework and MongoDB/Mongoose.
+CRUD REST API using the NestJS framework and MongoDB/Mongoose.
 
 ## Setup
 
-Add your mongodb uri to the "config/keys.ts file"
+Create a `.env` file in the root of your project:
+
+```dosini
+mongoURI=YOURMONGOURI
+```
 
 ## Installation
 
